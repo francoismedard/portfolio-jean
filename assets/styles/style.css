@@ -1,0 +1,78 @@
+#Accueil {
+  position: relative;
+}
+
+nav.navbar {
+  margin-left: 0px; /* Ajustez la valeur selon vos besoins */
+  margin-right: 0px; /* Ajustez la valeur selon vos besoins */
+  padding: 0px 20px; /* Espacement interne */
+  margin-top: 20px;
+
+  @media (min-width: 992px) {
+    width: 980px; left: 50%; transform: translateX(-50%);
+  }
+  
+}
+
+body {
+  margin: 0;
+  /*height: 100vh;*/
+  display: flex;
+  justify-content: top;
+  align-items: top;
+  background: url("../images/fond-matrix.jpg") repeat fixed;
+  font-family: "Arial", sans-serif;
+  color: white;
+}
+
+.container.custom-width {
+  max-width: 980px; /* Override la largeur par défaut */
+  background: linear-gradient(135deg, #e0deeb, #3a7ada);
+}
+
+h1 {
+  font-size: 3em;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.text-stylise {
+  font-family: "Arial", sans-serif; /* Choix de la police */
+  font-size: 1.5em; /* Taille de la police */
+  line-height: 1.6; /* Hauteur de ligne pour un meilleur espacement */
+  color: #333; /* Couleur du texte */
+  text-align: center; /* Centrer le texte */
+  margin: 20px 0; /* Marge en haut et en bas */
+  padding: 10px; /* Espacement interne */
+  background-color: rgba(255, 255, 255, 0.8); /* Fond semi-transparent */
+  border-radius: 8px; /* Coins arrondis */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Ombre portée */
+}
+
+/* Contenus */
+
+.card {
+  margin: 20px;
+}
+
+#photoJean {
+  position: absolute;
+  left: 400px;
+  top: 0px;
+}
+
+section {
+  height: 100vh;
+  padding: 20 px;
+  padding-top: 120px; /* Pour la navbar */
+}
+
+section#Accueil {
+  margin-bottom: 300px; /* Image absolute*/
+}
+
+section#Accueil #contenuAccueil {
+  position: relative;
+}
+
+section#aProposDeMoi {
+}
