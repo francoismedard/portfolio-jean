@@ -60,16 +60,17 @@ h1 {
   }
 
   @media (min-width: 992px) {
+
     position: absolute;
-    left: 400px;
-    top: 0px;
+      left: 400px;
+      top: 0px;
   }
 }
 
 section {
-  height: 100vh;
+  min-height: 100vh; 
   padding: 20 px;
-  padding-top: 120px; /* Pour la navbar */
+  padding-top: 130px; /* Pour la navbar */
 }
 
 section#Accueil {
