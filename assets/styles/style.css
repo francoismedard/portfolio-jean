@@ -55,9 +55,15 @@ h1 {
 }
 
 #photoJean {
-  position: absolute;
-  left: 400px;
-  top: 0px;
+  @media (max-width: 991px) {
+    text-align:center;
+  }
+
+  @media (min-width: 992px) {
+    position: absolute;
+    left: 400px;
+    top: 0px;
+  }
 }
 
 section {
